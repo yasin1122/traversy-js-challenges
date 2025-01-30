@@ -6,8 +6,6 @@
 //   return count
 // }
 
-const countOccurrences = (word, char) => {
-  return word.split(char).length - 1
-}
+const countOccurrences = (word, char) => word.split(char).length - 1
 
 module.exports = countOccurrences
