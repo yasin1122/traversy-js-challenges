@@ -1,3 +1,12 @@
-function phoneNumberDirectory() {}
+function phoneNumberDirectory(nums) {
+  const phoneMap = new Map()
 
-module.exports = phoneNumberDirectory;
+  for (const num of nums) {
+    const [name, number] = num.split(':')
+    phoneMap.set(name, number)
+  }
+
+  return phoneMap
+}
+
+module.exports = phoneNumberDirectory
