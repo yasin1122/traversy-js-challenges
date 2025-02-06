@@ -1,1 +1,1 @@
-const HashTable = require('./custom-hash-table');
+const HashTable = require('./custom-hash-table')
