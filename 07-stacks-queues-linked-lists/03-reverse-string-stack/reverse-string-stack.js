@@ -1,5 +1,5 @@
-const Stack = require('./stack');
+const Stack = require('./stack')
 
 function reverseStringStack() {}
 
-module.exports = reverseStringStack;
+module.exports = reverseStringStack

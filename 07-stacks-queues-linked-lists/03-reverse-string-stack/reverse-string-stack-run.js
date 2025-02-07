@@ -1,5 +1,5 @@
-const reverseStringStack = require('./reverse-string-stack');
+const reverseStringStack = require('./reverse-string-stack')
 
-const result = reverseStringStack('Hello World!');
+const result = reverseStringStack('Hello World!')
 
-console.log(result);
+console.log(result)
